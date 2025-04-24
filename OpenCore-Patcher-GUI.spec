@@ -27,13 +27,14 @@ if Path("DortaniaInternalResources.dmg").exists():
 
 
 a = Analysis(['OpenCore-Patcher-GUI.command'],
-             pathex=[],
+             pathex=['/Users/darkfairie/Projets/OpenCore-Legacy-Patcher/.venv/lib/python3.13/site-packages'],
              binaries=[],
              datas=datas,
-             hiddenimports=[],
+             hiddenimports=['pyobjc', 'pyobjc-framework-Cocoa', 'pyobjc_framework_AppKit', 'pyobjc_framework_CoreServices'],
              hookspath=[],
              hooksconfig={},
              runtime_hooks=[],
+             runtime_tmpdir='.',
              excludes=[],
              win_no_prefer_redirects=False,
              win_private_assemblies=False,
