@@ -14,11 +14,11 @@ OpenCore Legacy Patcher may collect pseudo-anonymized data about the host system
 
 Identifiable data such as IP addresses, MAC addresses, serial numbers, etc. are not collected.
 
-In the future, crash logs may also be collected to help with diagnosing issues.
-----------
+## In the future, crash logs may also be collected to help with diagnosing issues
 
 Users who wish to opt-out can do so either via the application's preferences or via the following command:
-```
+
+```shell
 defaults write com.dortania.opencore-legacy-patcher DisableCrashAndAnalyticsReporting -bool true
 ```
 

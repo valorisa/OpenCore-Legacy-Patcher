@@ -1,4 +1,8 @@
 {
+    "$schema": "https://json.schemastore.org/markdownlint.json",
+    "MD003": {
+      "style": "atx"
+    },
     "MD013": {
       "line_length": 430,
       "strict": false,
@@ -8,6 +12,13 @@
       "headings": false
     },
     "MD033": {
-      "allowed_elements": ["nobr", "sup", "div", "img", "h1"]
-    }
+      "allowed_elements": ["nobr", "sup", "div", "img", "h1", "br"]
+    },
+    "MD024": {
+      "siblings_only": true
+    },
+    "MD041": false,
+    "MD036": false,
+    "MD025": false
   }
+  
