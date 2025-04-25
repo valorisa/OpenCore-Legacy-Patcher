@@ -1,3 +1,4 @@
+<!-- markdownlint-disable MD045 -->
 # Build and run from source
 
 OpenCore Legacy Patcher at its core is a Python-based GUI/CLI-based application. In turn, to run the project from source, you simply need to invoke the OpenCore-Patcher-GUI.command file via Python.
