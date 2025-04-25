@@ -1,0 +1,13 @@
+{
+    "MD013": {
+      "line_length": 359,
+      "strict": false,
+      "stern": false,
+      "code_blocks": false,
+      "tables": false,
+      "headings": false
+    },
+    "MD033": {
+      "allowed_elements": ["nobr", "sup", "div", "img", "h1"]
+    }
+  }

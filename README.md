@@ -1,8 +1,9 @@
+<!-- markdownlint-disable MD041 -->
 <div align="center">
              <img src="docs/images/OC-Patcher.png" alt="OpenCore Patcher Logo" width="256" />
              <h1>OpenCore Legacy Patcher</h1>
 </div>
-
+<!-- markdownlint-enable MD041 -->
 A Python-based project revolving around [Acidanthera's OpenCorePkg](https://github.com/acidanthera/OpenCorePkg) and [Lilu](https://github.com/acidanthera/Lilu) for both running and unlocking features in macOS on supported and unsupported Macs.
 
 Our project's main goal is to breathe new life into Macs no longer supported by Apple, allowing for the installation and usage of macOS Big Sur and newer on machines as old as 2007.
@@ -132,7 +133,7 @@ To run the project from source, see here: [Build and run from source](./SOURCE.m
   * [SpiGAndromeda](https://github.com/SpiGAndromeda) - AMD Vega 64
   * [turbomacs](https://github.com/turbomacs) - 2014 5k iMac
   * [vinaypundith](https://forums.macrumors.com/members/vinaypundith.1212357/) - MacBook7,1
-   * [ThatStella7922](https://github.com/ThatStella7922) - 2017 13" MacBook Pro (A1708)
+  * [ThatStella7922](https://github.com/ThatStella7922) - 2017 13" MacBook Pro (A1708)
   * zephar - 2008 Mac Pro
   * jazo97 - 2011 15" MacBook Pro
   * And others (reach out if we forgot you!)
